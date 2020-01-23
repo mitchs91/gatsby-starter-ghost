@@ -179,12 +179,6 @@ module.exports = {
                 addUncaughtPages: true,
             },
         },
-        {
-            resolve: `gatsby-plugin-layout`,
-            options: {
-              component: require.resolve(`./src/layouts/index.js`),
-            },
-        }
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
